@@ -6,15 +6,40 @@
     android:layout_height="match_parent"
     tools:context="FADA.com.HelloWorld">
 
-    <TextView
-        android:layout_width="217dp"
-        android:layout_height="142dp"
-        android:text="Hola Mundo, Erick y 42 (?)"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteY="123dp" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="302dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Número 2"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumar"
+        tools:layout_editor_absoluteX="1139dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="302dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Número 1"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/sumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumar"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="216dp" />
 
 </android.support.constraint.ConstraintLayout>

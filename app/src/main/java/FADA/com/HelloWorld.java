@@ -9,5 +9,6 @@ public class HelloWorld extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_world);
+        Button suma = (Button)findViewById(R.id.btnCalcularSuma);
     }
 }
